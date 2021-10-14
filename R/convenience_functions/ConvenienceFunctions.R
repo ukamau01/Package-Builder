@@ -1,4 +1,18 @@
+#load necessary libraries
 library(stats)
+
+#' Accepts dataframe columns as arguments. Removes observations that contain "N/A"
+#' 
+#' Epanded Description
+#' 
+#' @param data data.frame objuects or observations
+#' @param desired_num_columns columns with observations you want to remove
+#' 
+#' @return data.frame with observations removed
+#' 
+#' @example give an example
+#' 
+#' @export #Lets R know that you want to create/ export documentation.
 
 # Drop NAs by Columns
 completeFun <- function(data, desiredCols) {
